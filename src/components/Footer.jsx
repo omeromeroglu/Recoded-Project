@@ -34,7 +34,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div>
+      <div class="align-right">
         <span>
           (&copy;) 2020. Re:Coded is a 501(&copy;)(3) non-profit corporation.
         </span>

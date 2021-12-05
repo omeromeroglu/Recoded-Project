@@ -49,7 +49,9 @@ header {
 }
 
 .align-right {
+ 
   text-align: right;
+ 
 }
 
 .bootcamp p,
@@ -63,8 +65,8 @@ li {
 
 footer {
   display: flex;
-  -webkit-flex-direction: row; 
-  flex-direction: row;
+  justify-content: space-between;
+  
 }
 
 #searchBox {
@@ -97,10 +99,11 @@ infoBtn,
 /* Make the mouse curser look like a hand when you hover over the buttons (#infoBtn, #searchBtn, #awesomeBtn) and add backgound and border color of #3a7ddd*/
 
 .socialIcon {
-  width: 25p;
+  width: 25px;
   margin: 0 10px;
-  -webkit-flex-direction: row; 
   flex-direction: row;
+   justify-content:flex-start;
+
  
   
 }
